@@ -6,9 +6,7 @@ public class Program
         try
         {
             Console.Write("Lütfen bir sayı giriniz: ");
-                string userInput = Console.ReadLine();
-                     int squareRoot = Convert.ToInt32(userInput);
-
+                int squareRoot = Convert.ToInt32(Console.ReadLine());
              Console.WriteLine($"Girdiğiniz sayı: {squareRoot} karesi: {squareRoot * squareRoot}");
         }
 
